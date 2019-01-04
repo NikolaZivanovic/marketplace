@@ -1,0 +1,67 @@
+.payment-modal {}
+.payment-modal__title {
+    margin-bottom: 12px;
+    color: $black-lighter-2;
+    font-size: 15px;
+    font-weight: bold;
+}
+.payment-modal__product-list {
+    margin-bottom: 32px;
+    border-bottom: 1px solid $border-medium-br;
+    padding: 20px 0;
+}
+.payment-modal__item-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.payment-modal__product-info {
+    color: $gray-light;
+    font-size: 16px;
+    font-weight: 300;
+}
+.payment-modal__billing {
+    margin-bottom: 64px;
+}
+.payment-modal__billing-item-info {
+    color: $gray-light;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px
+}
+.payment-modal__billing-item-info--total {
+    color: $black-lighter-2;
+    font-size: 17px;
+    font-weight: bold;
+}
+.payment-modal__customer-info {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 36px;
+}
+.payment-modal__customer-info-title {
+    margin-bottom: 32px;
+    color: $black-lighter-2;
+    font-size: 15px;
+    font-weight: bold;
+}
+.payment-modal__customer-info-row {
+    margin-bottom: 48px;
+}
+.payment-modal__customer-info-item {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.payment-modal__customer-info-item-label {
+    color: $black-lighter-2;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 27px;
+}
+.payment-modal__customer-info-item-value {
+    color: $gray-light;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 27px;
+}

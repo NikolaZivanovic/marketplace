@@ -1,0 +1,71 @@
+.shop-progress {
+    min-height: 10em;
+    background: #111 url("../../images/shopCartBg.jpg") 50% 50% no-repeat;
+    color: #fff;
+    margin-bottom: 1em;
+}
+
+.shop-progress__title {
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0.5em 0 0.5em;
+    text-align: center;
+}
+
+.shop-steps {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding-bottom: 2em;
+}
+
+.shop-step {
+    position: relative;
+    width: 20%;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+
+    &:last-child .shop-step__line--left {
+        display: none;
+    }
+
+    &:first-child .shop-step__line--right {
+        display: none;
+    }
+}
+
+.shop-step__desc {
+    padding-top: 2em;
+}
+
+.shop-step__line {
+    position: absolute;
+    top: 0.5em;
+    width: 50%;
+    height: 1px;
+    background: #fff;
+}
+.shop-step__line--right {
+    left: -0.5em;
+}
+.shop-step__line--left {
+    right: -0.5em;
+}
+
+.shop-step__circle {
+    width: 1em;
+    height: 1em;
+    border: 2px solid #fff;
+    -webkit-border-radius: 1em;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    margin-left: -0.5em;
+}
+.shop-step__circle--full {
+    background-color: #fff;
+}

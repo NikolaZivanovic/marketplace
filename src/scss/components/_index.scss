@@ -1,0 +1,14 @@
+@import "header";
+@import "products";
+@import "product";
+@import "footer";
+@import "modal";
+@import "generic-form";
+@import "confirmation";
+@import 'payment';
+
+
+.slider {
+    max-height: 600px;
+    overflow: hidden;
+}

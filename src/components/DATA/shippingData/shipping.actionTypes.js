@@ -1,0 +1,2 @@
+export const USER_SHIPPING_INFO = 'USER_SHIPPING_INFO';
+

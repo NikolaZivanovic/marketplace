@@ -1,0 +1,4 @@
+{
+    "AJAX_REQUEST_DEFAULT_TIMEOUT": 30000,
+    "API_BASE_URL": "http://167.99.212.212/api/v1"
+}
